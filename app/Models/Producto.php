@@ -9,7 +9,7 @@ class Producto extends Model
 {
     use HasFactory;
 
-    protected $timestamps = false;
+    public $timestamps = false;
 
     // Define el nombre de la tabla si no sigue la convención
     protected $table = 'productos'; // Nombre de la tabla en la base de datos
